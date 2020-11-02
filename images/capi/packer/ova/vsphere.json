@@ -1,15 +1,13 @@
 {
-    "vcenter_server":"",
-    "username":"",
-    "password":"",
-    "datastore":"",
-    "datacenter":"",
+    "vcenter_server":"192.168.1.60",
+    "username":"administrator@vsphere.local",
+    "password":".......",
+    "datastore":"Esxi01_LocalVNME",
+    "datacenter": "LabDC",
+    "resource_pool": "",
     "folder": "",
-    "cluster": "",
-    "network": "",
-    "convert_to_template": "false",
-    "linked_clone": "true",
-    "create_snapshot": "true",
-    "template": "",
-    "insecure_connection": "false"
+    "cluster": "Lab_Cluster",
+    "network": "VM Network",
+    "convert_to_template": "true",
+    "insecure_connection": "true"
 }
